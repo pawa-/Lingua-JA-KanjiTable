@@ -52,4 +52,10 @@ for my $codepoint (@codepoint_list)
     else { die; }
 }
 
-printf("%04X\n", $codepoint_prev);
+$state = 3 if $state != 0 && $codepoint_prev - hex($line) > 1;
+
+   if ($state == 1) { $line .= "\n"; }
+elsif ($state == 2) { $line .= "\n" . sprintf("%04X", $codepoint_prev) . "\n"; }
+elsif ($state == 3) { $line .= '\t' . sprintf("%04X", $codepoint_prev) . "\n"; }
+
+print $line unless $state == 0;
