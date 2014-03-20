@@ -2859,8 +2859,9 @@ Lingua::JA::KanjiTable - Kanji properties
   '苺' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
   '姦' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 0
 
-
 =for test_synopsis_expectation_no_test
+
+Jinmei check:
 
   use Lingua::JA::KanjiTable;
   use utf8;
