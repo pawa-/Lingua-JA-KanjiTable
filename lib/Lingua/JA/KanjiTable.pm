@@ -2861,7 +2861,7 @@ Lingua::JA::KanjiTable - Kanji properties
 
 =for test_synopsis_expectation_no_test
 
-Jinmei check:
+Jinmei(名) check:
 
   use Lingua::JA::KanjiTable;
   use utf8;
