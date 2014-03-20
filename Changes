@@ -2,6 +2,8 @@ Revision history for Perl extension Lingua-JA-KanjiTable
 
 {{$NEXT}}
 
+    - Improved documentation
+
 0.02 2014-03-20T15:53:08Z
 
     - Added Jinmeiyo Kanji

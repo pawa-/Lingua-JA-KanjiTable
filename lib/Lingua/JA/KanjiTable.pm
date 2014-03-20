@@ -2858,9 +2858,7 @@ Lingua::JA::KanjiTable - Kanji properties
   '亞' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
   '苺' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
   '姦' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 0
-
 =for test_synopsis_expectation_no_test
-
   '太郎喜左衛門将時能' =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
   '愛子エンジェル'     =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
   'み〜こ'             =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 0
