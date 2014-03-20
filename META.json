@@ -54,5 +54,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pawa-/Lingua-JA-KanjiTable/issues"
+      },
+      "homepage" : "https://github.com/pawa-/Lingua-JA-KanjiTable",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pawa-/Lingua-JA-KanjiTable",
+         "web" : "https://github.com/pawa-/Lingua-JA-KanjiTable"
+      }
+   },
    "version" : "0.01"
 }
