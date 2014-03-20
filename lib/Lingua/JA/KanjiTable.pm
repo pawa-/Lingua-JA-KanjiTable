@@ -2020,7 +2020,7 @@ Lingua::JA::KanjiTable provides user-defined Unicode properties relating to Kanj
 
 =head1 EXPORTS
 
-=over4
+=over 4
 
 =item InJoyoKanji - 常用漢字表（平成22年11月30日内閣告示）
 
