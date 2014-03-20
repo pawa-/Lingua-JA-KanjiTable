@@ -2009,10 +2009,10 @@ Lingua::JA::KanjiTable - Kanji properties
   use Lingua::JA::KanjiTable;
   use utf8;
 
-  '亜' =~ /^\p{InJoyoKanji}+$/   ? 1 : 0; # => 1
-  '亞' =~ /^\p{InJoyoKanji}+$/   ? 1 : 0; # => 0
-  '叱' =~ /^\p{InJouyouKanji}+$/ ? 1 : 0; # => 0
-  '𠮟' =~ /^\p{InJouyouKanji}+$/ ? 1 : 0; # => 1
+  '亜' =~ /^\p{InJoyoKanji}$/   ? 1 : 0; # => 1
+  '亞' =~ /^\p{InJoyoKanji}$/   ? 1 : 0; # => 0
+  '叱' =~ /^\p{InJouyouKanji}$/ ? 1 : 0; # => 0
+  '𠮟' =~ /^\p{InJouyouKanji}$/ ? 1 : 0; # => 1
 
 =head1 DESCRIPTION
 
