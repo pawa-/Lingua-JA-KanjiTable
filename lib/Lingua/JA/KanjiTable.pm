@@ -2018,11 +2018,15 @@ Lingua::JA::KanjiTable - Kanji properties
 
 Lingua::JA::KanjiTable provides user-defined Unicode properties relating to Kanji.
 
-~head1 EXPORTS
+=head1 EXPORTS
 
-=head2 InJoyoKanji - 常用漢字表（平成22年11月30日内閣告示）
+=over4
 
-=head2 InJouyouKanji - ditto
+=item InJoyoKanji - 常用漢字表（平成22年11月30日内閣告示）
+
+=item InJouyouKanji - ditto
+
+=back
 
 =head1 SEE ALSO
 
