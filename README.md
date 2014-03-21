@@ -28,6 +28,7 @@ Jinmei(名) check:
     'み〜こ'             =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 0
     'ニャー'             =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
     '奈々'               =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
+    '〆子'               =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 0
 
     sub InJinmei
     {
