@@ -7,12 +7,13 @@ Lingua::JA::KanjiTable - Kanji properties
     use Lingua::JA::KanjiTable;
     use utf8;
 
-    '亜' =~ /^\p{InJoyoKanji}$/    ? 1 : 0; # => 1
-    '亞' =~ /^\p{InJoyoKanji}$/    ? 1 : 0; # => 0
-    '匁' =~ /^\p{InJoyoKanji}$/    ? 1 : 0; # => 0
-    '叱' =~ /^\p{InJouyouKanji}$/  ? 1 : 0; # => 0
-    '𠮟' =~ /^\p{InJouyouKanji}$/  ? 1 : 0; # => 1
-    '固唾' =~ /^\p{InJoyoKanji}+$/ ? 1 : 0; # => 1
+    '亜'   =~ /^\p{InJoyoKanji}$/   ? 1 : 0; # => 1
+    '亞'   =~ /^\p{InJoyoKanji}$/   ? 1 : 0; # => 0
+    '匁'   =~ /^\p{InJoyoKanji}$/   ? 1 : 0; # => 0
+    '叱'   =~ /^\p{InJouyouKanji}$/ ? 1 : 0; # => 0
+    '𠮟'   =~ /^\p{InJouyouKanji}$/ ? 1 : 0; # => 1
+    '恍惚' =~ /^\p{InJoyoKanji}+$/  ? 1 : 0; # => 0
+    '固唾' =~ /^\p{Lingua::JA::KanjiTable::InJoyoKanji20101130}+$/ ? 1 : 0; # => 1
 
     '亞' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
     '匁' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
@@ -74,11 +75,11 @@ The followings are not exported by default:
 
 [Jinmeiyō kanji - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji)
 
+[人名用漢字表](http://www.moj.go.jp/content/000058122.pdf)
+
 戸籍法 第50条
 
 戸籍法施行規則 第60条
-
-[人名用漢字表](http://www.moj.go.jp/content/000058122.pdf)
 
 # LICENSE
 
