@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Exporter qw/import/;
 
-our $VERSION   = "0.06";
+our $VERSION   = "0.07";
 our @EXPORT    = qw/InJoyoKanji InJouyouKanji InJinmeiyoKanji InJinmeiyouKanji/;
 our @EXPORT_OK = qw/InJoyoKanji20101130 InJouyouKanji20101130 InJinmeiyoKanji20101130 InJinmeiyouKanji20101130/;
 
