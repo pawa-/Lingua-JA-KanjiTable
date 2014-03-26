@@ -2923,7 +2923,7 @@ The followings are not exported by default:
 
 =item InJouyouKanji20101130 - ditto
 
-=item InJinmeiyoKanji20101130- 人名用漢字表（2010年11月30日版）
+=item InJinmeiyoKanji20101130 - 人名用漢字表（2010年11月30日版）
 
 =item InJinmeiyouKanji20101130 - ditto
 
