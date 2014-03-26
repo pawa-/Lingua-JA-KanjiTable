@@ -20,4 +20,14 @@ ok(/^\p{InJoyoKanji}+$/,           'Joyo   Kanji latest');
 ok(/^\p{InJoyoKanji20101130}+$/,   'Joyo   Kanji 2010-11-30');
 ok(/^\p{InJouyouKanji20101130}+$/, 'Jouyou Kanji 2010-11-30');
 
+my $cnt;
+
+for my $dec ( hex('0000') .. hex('10FFFF') )
+{
+    my $chara = chr $dec;
+    $cnt++ if $chara =~ /^\p{InJoyoKanji}$/;
+}
+
+is($cnt, 2136, 'count');
+
 done_testing;
