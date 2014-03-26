@@ -54,9 +54,9 @@ Lingua::JA::KanjiTable provides user-defined Unicode properties relating to Kanj
 
 By default Lingua::JA::KanjiTable exports the following user-defined Unicode properties:
 
-- InJoyoKanji - The latest Jouyou Kanji table
+- InJoyoKanji - The latest Jouyou Kanji table（平成22年11月30日内閣告示第2号）
 - InJouyouKanji - ditto
-- InJinmeiyoKanji - The latest Jinmeiyou Kanji table
+- InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2010年11月30日版）
 - InJinmeiyouKanji - ditto
 
 The followings are not exported by default:

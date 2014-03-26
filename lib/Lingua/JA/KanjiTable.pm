@@ -2904,11 +2904,11 @@ By default Lingua::JA::KanjiTable exports the following user-defined Unicode pro
 
 =over 4
 
-=item InJoyoKanji - The latest Jouyou Kanji table
+=item InJoyoKanji - The latest Jouyou Kanji table（平成22年11月30日内閣告示第2号）
 
 =item InJouyouKanji - ditto
 
-=item InJinmeiyoKanji - The latest Jinmeiyou Kanji table
+=item InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2010年11月30日版）
 
 =item InJinmeiyouKanji - ditto
 
