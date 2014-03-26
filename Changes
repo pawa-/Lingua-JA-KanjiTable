@@ -2,6 +2,10 @@ Revision history for Perl extension Lingua-JA-KanjiTable
 
 {{$NEXT}}
 
+0.06 2014-03-26T07:41:22Z
+
+     - Fixed typo
+
 0.05 2014-03-26T07:09:44Z
 
     - Added InJoyoKanji20101130, InJouyouKanji20101130, InJinmeiyoKanji20101130 and InJinmeiyouKanji20101130
