@@ -64,7 +64,7 @@ The followings are not exported by default:
 
 - InJoyoKanji20101130 - 常用漢字表（平成22年11月30日内閣告示第2号）
 - InJouyouKanji20101130 - ditto
-- InJinmeiyoKanji20101130- 人名用漢字表（2010年11月30日版）
+- InJinmeiyoKanji20101130 - 人名用漢字表（2010年11月30日版）
 - InJinmeiyouKanji20101130 - ditto
 
 # SEE ALSO
