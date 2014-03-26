@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use utf8;
-use Lingua::JA::KanjiTable;
+use Lingua::JA::KanjiTable qw/InJinmeiyoKanji InJinmeiyouKanji InJinmeiyoKanji20101130 InJinmeiyouKanji20101130/;
 use Test::More;
 
 binmode Test::More->builder->$_ => ':utf8'
@@ -16,6 +16,8 @@ for my $char ( split(//) )
     ok( $char =~ /^\p{InJinmeiyoKanji}$/, "$char: U+" . sprintf("%04X", ord $char) );
 }
 
-ok(/^\p{InJinmeiyouKanji}+$/, 'Jinmeiyou Kanji');
+ok(/^\p{InJinmeiyouKanji}+$/,         'Jinmeiyou Kanji latest');
+ok(/^\p{InJinmeiyoKanji20101130}+$/,  'Jinmeiyo  Kanji 2010-11-30');
+ok(/^\p{InJinmeiyouKanji20101130}+$/, 'Jinmeiyou Kanji 2010-11-30');
 
 done_testing;

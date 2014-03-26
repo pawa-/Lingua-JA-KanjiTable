@@ -9,12 +9,14 @@ Lingua::JA::KanjiTable - Kanji properties
 
     '亜' =~ /^\p{InJoyoKanji}$/    ? 1 : 0; # => 1
     '亞' =~ /^\p{InJoyoKanji}$/    ? 1 : 0; # => 0
+    '匁' =~ /^\p{InJoyoKanji}$/    ? 1 : 0; # => 0
     '叱' =~ /^\p{InJouyouKanji}$/  ? 1 : 0; # => 0
     '𠮟' =~ /^\p{InJouyouKanji}$/  ? 1 : 0; # => 1
     '固唾' =~ /^\p{InJoyoKanji}+$/ ? 1 : 0; # => 1
 
-    '柊' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
     '亞' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
+    '匁' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
+    '柊' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
     '苺' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
     '姦' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 0
 
@@ -50,10 +52,19 @@ Lingua::JA::KanjiTable provides user-defined Unicode properties relating to Kanj
 
 # EXPORTS
 
-- InJoyoKanji - 常用漢字表（平成22年11月30日内閣告示）
+By default Lingua::JA::KanjiTable exports the following user-defined Unicode properties:
+
+- InJoyoKanji - The latest Jouyou Kanji table
 - InJouyouKanji - ditto
-- InJinmeiyoKanji - 人名用漢字
+- InJinmeiyoKanji - The latest Jinmeiyou Kanji table
 - InJinmeiyouKanji - ditto
+
+The followings are not exported by default:
+
+- InJoyoKanji20101130 - 常用漢字表（平成22年11月30日内閣告示第2号）
+- InJouyouKanji20101130 - ditto
+- InJinmeiyoKanji20101130- 人名用漢字表（2010年11月30日版）
+- InJinmeiyouKanji20101130 - ditto
 
 # SEE ALSO
 
