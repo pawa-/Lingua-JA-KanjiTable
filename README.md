@@ -1,6 +1,6 @@
 # NAME
 
-Lingua::JA::KanjiTable - Kanji properties
+Lingua::JA::KanjiTable - User-Defined Character Properties for 常用漢字表 and 人名用漢字表
 
 # SYNOPSIS
 
@@ -49,11 +49,11 @@ Jinmei(名) check:
 
 # DESCRIPTION
 
-Lingua::JA::KanjiTable provides user-defined Unicode properties relating to Kanji.
+Lingua::JA::KanjiTable provides user-defined character properties for 常用漢字表 and 人名用漢字表.
 
 # EXPORTS
 
-By default Lingua::JA::KanjiTable exports the following user-defined Unicode properties:
+By default Lingua::JA::KanjiTable exports the following user-defined character properties:
 
 - InJoyoKanji - The latest Jouyou Kanji table（平成22年11月30日内閣告示第2号）
 - InJouyouKanji - ditto

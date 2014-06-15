@@ -17,7 +17,9 @@ for my $char ( split(//) )
 }
 
 ok(/^\p{InJinmeiyouKanji}+$/,         'Jinmeiyou Kanji latest');
-ok(/^\p{InJinmeiyoKanji20101130}+$/,  'Jinmeiyo  Kanji 2010-11-30');
+ok(/^\p{InJinmeiyoKanji20101130}+$/,   'Jinmeiyo Kanji 2010-11-30');
 ok(/^\p{InJinmeiyouKanji20101130}+$/, 'Jinmeiyou Kanji 2010-11-30');
+
+ok('a' !~ /^\p{InJinmeiyouKanji}+$/, 'not Jinmeiyou Kanji');
 
 done_testing;

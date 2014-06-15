@@ -16,8 +16,10 @@ for my $char ( split(//) )
     ok( $char =~ /^\p{InJouyouKanji}$/, "$char: U+" . sprintf("%04X", ord $char) );
 }
 
-ok(/^\p{InJoyoKanji}+$/,           'Joyo   Kanji latest');
-ok(/^\p{InJoyoKanji20101130}+$/,   'Joyo   Kanji 2010-11-30');
+ok(/^\p{InJoyoKanji}+$/,             'Joyo Kanji latest');
+ok(/^\p{InJoyoKanji20101130}+$/,     'Joyo Kanji 2010-11-30');
 ok(/^\p{InJouyouKanji20101130}+$/, 'Jouyou Kanji 2010-11-30');
+
+ok('あ' !~ /^\p{InJoyoKanji}+$/, 'not Joyo Kanji');
 
 done_testing;

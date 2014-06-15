@@ -2846,7 +2846,7 @@ __END__
 
 =head1 NAME
 
-Lingua::JA::KanjiTable - Kanji properties
+Lingua::JA::KanjiTable - User-Defined Character Properties for 常用漢字表 and 人名用漢字表
 
 =head1 SYNOPSIS
 
@@ -2897,11 +2897,11 @@ Jinmei(名) check:
 
 =head1 DESCRIPTION
 
-Lingua::JA::KanjiTable provides user-defined Unicode properties relating to Kanji.
+Lingua::JA::KanjiTable provides user-defined character properties for 常用漢字表 and 人名用漢字表.
 
 =head1 EXPORTS
 
-By default Lingua::JA::KanjiTable exports the following user-defined Unicode properties:
+By default Lingua::JA::KanjiTable exports the following user-defined character properties:
 
 =over 4
 
