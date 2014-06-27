@@ -1,6 +1,6 @@
 # NAME
 
-Lingua::JA::KanjiTable - User-Defined Character Properties for &#x5E38;&#x7528;&#x6F22;&#x5B57;&#x8868; and &#x4EBA;&#x540D;&#x7528;&#x6F22;&#x5B57;&#x8868;
+Lingua::JA::KanjiTable - User-Defined Character Properties for Joyo Kanji and Jinmeiyo Kanji
 
 # SYNOPSIS
 
