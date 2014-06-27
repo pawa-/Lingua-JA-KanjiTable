@@ -1,6 +1,6 @@
 # NAME
 
-Lingua::JA::KanjiTable - User-Defined Character Properties for 常用漢字表 and 人名用漢字表
+Lingua::JA::KanjiTable - User-Defined Character Properties for &#x5E38;&#x7528;&#x6F22;&#x5B57;&#x8868; and &#x4EBA;&#x540D;&#x7528;&#x6F22;&#x5B57;&#x8868;
 
 # SYNOPSIS
 
@@ -21,11 +21,7 @@ Lingua::JA::KanjiTable - User-Defined Character Properties for 常用漢字表 a
     '苺' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 1
     '姦' =~ /^\p{InJinmeiyoKanji}$/ ? 1 : 0; # => 0
 
-Jinmei(名) check:
-
-    use Lingua::JA::KanjiTable;
-    use utf8;
-
+    #Jinmei(名) check:
     '太郎喜左衛門将時能' =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
     '愛子エンジェル'     =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
     'み〜こ'             =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 0
@@ -60,7 +56,7 @@ By default Lingua::JA::KanjiTable exports the following user-defined character p
 - InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2010年11月30日版）
 - InJinmeiyouKanji - ditto
 
-The followings are not exported by default:
+The following properties are not exported by default:
 
 - InJoyoKanji20101130 - 常用漢字表（平成22年11月30日内閣告示第2号）
 - InJouyouKanji20101130 - ditto
