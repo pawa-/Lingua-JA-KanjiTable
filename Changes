@@ -2,6 +2,10 @@ Revision history for Perl extension Lingua-JA-KanjiTable
 
 {{$NEXT}}
 
+0.11_01 2014-06-27T02:59:06Z
+
+    - Minor mojibake fix
+
 0.10 2014-06-15T11:23:45Z
 
     - No code changes
