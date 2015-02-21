@@ -7,15 +7,16 @@ use Exporter qw/import/;
 
 our $VERSION   = "0.12";
 our @EXPORT    = qw/InJoyoKanji InJouyouKanji InJinmeiyoKanji InJinmeiyouKanji/;
-our @EXPORT_OK = qw/InJoyoKanji20101130 InJouyouKanji20101130 InJinmeiyoKanji20101130 InJinmeiyouKanji20101130/;
+our @EXPORT_OK = qw/InJoyoKanji20101130 InJouyouKanji20101130 InJinmeiyoKanji20101130 InJinmeiyouKanji20101130 InJinmeiyoKanji20150107 InJinmeiyouKanji20150107/;
 
 *InJoyoKanji           = \&InJoyoKanji20101130;
 *InJouyouKanji         = \&InJoyoKanji;
 *InJouyouKanji20101130 = \&InJoyoKanji20101130;
 
-*InJinmeiyoKanji          = \&InJinmeiyoKanji20101130;
+*InJinmeiyoKanji          = \&InJinmeiyoKanji20150107;
 *InJinmeiyouKanji         = \&InJinmeiyoKanji;
 *InJinmeiyouKanji20101130 = \&InJinmeiyoKanji20101130;
+*InJinmeiyouKanji20150107 = \&InJinmeiyoKanji20150107;
 
 sub InJoyoKanji20101130
 {
@@ -2000,6 +2001,14 @@ sub InJoyoKanji20101130
 END
 }
 
+sub InJinmeiyoKanji20150107
+{
+    return <<"END";
++Lingua::JA::KanjiTable::InJinmeiyoKanji20101130
+5DEB
+END
+}
+
 sub InJinmeiyoKanji20101130
 {
     return <<"END";
@@ -2876,6 +2885,7 @@ Lingua::JA::KanjiTable - User-Defined Character Properties for Joyo Kanji and Ji
   'ニャー'             =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
   '奈々'               =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
   '〆子'               =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 0
+  '巫女みこナース'     =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
 
   sub InJinmei
   {
@@ -2905,7 +2915,7 @@ By default Lingua::JA::KanjiTable exports the following user-defined character p
 
 =item InJouyouKanji - ditto
 
-=item InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2010年11月30日版）
+=item InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2015年1月7日版）
 
 =item InJinmeiyouKanji - ditto
 
@@ -2918,6 +2928,10 @@ The following properties are not exported by default:
 =item InJoyoKanji20101130 - 常用漢字表（平成22年11月30日内閣告示第2号）
 
 =item InJouyouKanji20101130 - ditto
+
+=item InJinmeiyoKanji20150107 - 人名用漢字表（2015年1月7日版）
+
+=item InJinmeiyouKanji20150107 - ditto
 
 =item InJinmeiyoKanji20101130 - 人名用漢字表（2010年11月30日版）
 
@@ -2933,7 +2947,7 @@ L<常用漢字表（平成22年11月30日内閣告示）|http://www.bunka.go.jp/
 
 L<Jinmeiyō kanji - Wikipedia, the free encyclopedia|http://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji>
 
-L<人名用漢字表|http://www.moj.go.jp/content/000058122.pdf>
+L<人名用漢字表|http://www.moj.go.jp/content/001131003.pdf>
 
 戸籍法 第50条
 

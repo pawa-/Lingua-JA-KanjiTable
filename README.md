@@ -28,6 +28,7 @@ Lingua::JA::KanjiTable - User-Defined Character Properties for Joyo Kanji and Ji
     'ニャー'             =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
     '奈々'               =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
     '〆子'               =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 0
+    '巫女みこナース'     =~ /^\p{InJinmei}+$/ ? 1 : 0; # => 1
 
     sub InJinmei
     {
@@ -53,13 +54,15 @@ By default Lingua::JA::KanjiTable exports the following user-defined character p
 
 - InJoyoKanji - The latest Jouyou Kanji table（平成22年11月30日内閣告示第2号）
 - InJouyouKanji - ditto
-- InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2010年11月30日版）
+- InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2015年1月7日版）
 - InJinmeiyouKanji - ditto
 
 The following properties are not exported by default:
 
 - InJoyoKanji20101130 - 常用漢字表（平成22年11月30日内閣告示第2号）
 - InJouyouKanji20101130 - ditto
+- InJinmeiyoKanji20150107 - 人名用漢字表（2015年1月7日版）
+- InJinmeiyouKanji20150107 - ditto
 - InJinmeiyoKanji20101130 - 人名用漢字表（2010年11月30日版）
 - InJinmeiyouKanji20101130 - ditto
 
@@ -71,7 +74,7 @@ The following properties are not exported by default:
 
 [Jinmeiyō kanji - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Jinmeiy%C5%8D_kanji)
 
-[人名用漢字表](http://www.moj.go.jp/content/000058122.pdf)
+[人名用漢字表](http://www.moj.go.jp/content/001131003.pdf)
 
 戸籍法 第50条
 
