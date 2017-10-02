@@ -60,7 +60,7 @@
       "homepage" : "https://github.com/pawa-/Lingua-JA-KanjiTable",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/pawa-/Lingua-JA-KanjiTable",
+         "url" : "git://github.com/pawa-/Lingua-JA-KanjiTable.git",
          "web" : "https://github.com/pawa-/Lingua-JA-KanjiTable"
       }
    },
