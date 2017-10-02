@@ -7,7 +7,7 @@ use Test::More;
 binmode Test::More->builder->$_ => ':utf8'
     for qw/output failure_output todo_output/;
 
-my ($cnt_joyo, $cnt_jinmei, $cnt_jinmei_20101130);
+my ($cnt_joyo, $cnt_jinmei, $cnt_jinmei_20150107, $cnt_jinmei_20101130);
 
 for my $dec ( hex('0000') .. hex('10FFFF') )
 {
