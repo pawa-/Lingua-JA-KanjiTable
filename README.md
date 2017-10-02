@@ -55,13 +55,15 @@ By default Lingua::JA::KanjiTable exports the following user-defined character p
 
 - InJoyoKanji - The latest Jouyou Kanji table（平成22年11月30日内閣告示第2号）
 - InJouyouKanji - ditto
-- InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2015年1月7日版）
+- InJinmeiyoKanji - The latest Jinmeiyou Kanji table（2017年9月25日版）
 - InJinmeiyouKanji - ditto
 
 The following properties are not exported by default:
 
 - InJoyoKanji20101130 - 常用漢字表（平成22年11月30日内閣告示第2号）
 - InJouyouKanji20101130 - ditto
+- InJinmeiyoKanji20170925 - 人名用漢字表（2017年9月25日版）
+- InJinmeiyouKanji20170925 - ditto
 - InJinmeiyoKanji20150107 - 人名用漢字表（2015年1月7日版）
 - InJinmeiyouKanji20150107 - ditto
 - InJinmeiyoKanji20101130 - 人名用漢字表（2010年11月30日版）
