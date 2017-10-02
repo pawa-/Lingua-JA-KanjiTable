@@ -26,7 +26,7 @@ ok(/^\p{InJinmeiyouKanji}+$/,         'Jinmeiyou Kanji latest');
 ok(/^\p{InJinmeiyoKanji20101130}+$/,   'Jinmeiyo Kanji 2010-11-30');
 ok(/^\p{InJinmeiyouKanji20101130}+$/, 'Jinmeiyou Kanji 2010-11-30');
 ok(/^\p{InJinmeiyoKanji20150107}+$/,   'Jinmeiyo Kanji 2015-01-07');
-ok(/^\p{InJinmeiyouKanji20150107}+$/, 'Jinmeiyou Kanji 2010-01-07');
+ok(/^\p{InJinmeiyouKanji20150107}+$/, 'Jinmeiyou Kanji 2015-01-07');
 ok(/^\p{InJinmeiyoKanji20170925}+$/,   'Jinmeiyo Kanji 2017-09-25');
 ok(/^\p{InJinmeiyouKanji20170925}+$/, 'Jinmeiyou Kanji 2017-09-25');
 
