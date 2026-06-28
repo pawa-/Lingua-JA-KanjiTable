@@ -2928,6 +2928,7 @@ Lingua::JA::KanjiTable - User-Defined Character Properties for Joyo Kanji and Ji
   '苺' =~ /^\p{IsJinmeiyoKanji}$/ ? 1 : 0; # => 1
   '姦' =~ /^\p{IsJinmeiyoKanji}$/ ? 1 : 0; # => 0
   '渾' =~ /^\p{IsJinmeiyoKanji}$/ ? 1 : 0; # => 1
+  '勒' =~ /^\p{IsJinmeiyoKanji}$/ ? 1 : 0; # => 1
 
 =for test_synopsis_expectation_no_test
 
