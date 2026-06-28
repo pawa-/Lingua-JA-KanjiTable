@@ -32,6 +32,7 @@ our @EXPORT_OK = qw/
 
 *InJoyoKanji           = \&IsJoyoKanji20101130;
 *InJouyouKanji         = \&IsJoyoKanji;
+*InJoyoKanji20101130   = \&IsJoyoKanji20101130;
 *InJouyouKanji20101130 = \&IsJoyoKanji20101130;
 
 *IsJinmeiyoKanji          = \&IsJinmeiyoKanji20260626;
